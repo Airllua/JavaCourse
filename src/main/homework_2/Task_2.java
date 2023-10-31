@@ -1,4 +1,4 @@
-package homework_2;
+package main.homework_2;
 
 public class Task_2 {
     public static String removingExtraSpaces(String str) {

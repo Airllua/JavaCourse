@@ -1,4 +1,4 @@
-package extraTask_1;
+package main.extraTask_1;
 
 public enum EmployeeSpecialization {
     PAINTER, PLASTERER, MILLING

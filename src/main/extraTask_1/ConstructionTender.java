@@ -1,4 +1,4 @@
-package extraTask_1;
+package main.extraTask_1;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,12 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ConstructionTender {
-    private ArrayList<Brigade> brigades = new ArrayList<Brigade>();
+    private ArrayList<Brigade> brigades;
     public ArrayList<Brigade> getBrigades() {
         return brigades;
     }
 
-    ConstructionTender(ArrayList<Brigade> brigades) {
+    public ConstructionTender(ArrayList<Brigade> brigades) {
         this.brigades = brigades;
     }
 
@@ -39,8 +39,5 @@ public class ConstructionTender {
         }
 
         return Collections.min(brigadeCosts);
-    }
-
-    public static void main(String[] args) {
     }
 }
